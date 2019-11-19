@@ -22,3 +22,9 @@ for (var i = 0; i < listamail.length; i++) {
   }
 }
 console.log('in lista' + email_corretta);
+if (email_corretta == true) {
+  console.log('access granted');
+
+} else {
+  console.log('access denied');
+}
